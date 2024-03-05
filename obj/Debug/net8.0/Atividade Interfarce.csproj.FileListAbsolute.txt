@@ -1,0 +1,14 @@
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\bin\Debug\net8.0\Atividade Interfarce.exe
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\bin\Debug\net8.0\Atividade Interfarce.deps.json
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\bin\Debug\net8.0\Atividade Interfarce.runtimeconfig.json
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\bin\Debug\net8.0\Atividade Interfarce.dll
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\bin\Debug\net8.0\Atividade Interfarce.pdb
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.AssemblyInfoInputs.cache
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.AssemblyInfo.cs
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.csproj.CoreCompileInputs.cache
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.dll
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\refint\Atividade Interfarce.dll
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.pdb
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\Atividade Interfarce.genruntimeconfig.cache
+C:\Users\lonez\Desktop\Garoto de programa\Atividade Interfarce\obj\Debug\net8.0\ref\Atividade Interfarce.dll

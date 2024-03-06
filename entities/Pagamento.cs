@@ -17,7 +17,7 @@ namespace Atividade_Interfarce.entities
         }
         public override string ToString()
         {
-            return $"Pagamento básico: {PagamentoBasico.ToString("F2", CultureInfo.InvariantCulture)} \n Taxa: {Taxa} \n Pagamento Total: {PagamentoTotal.ToString("F2", CultureInfo.InvariantCulture)} ";
+            return $"Pagamento básico: {PagamentoBasico.ToString("F2", CultureInfo.InvariantCulture)} \nTaxa: {Taxa} \nPagamento Total: {PagamentoTotal.ToString("F2", CultureInfo.InvariantCulture)} ";
         }
     }
 }

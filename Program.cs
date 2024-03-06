@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using Atividade_Interfarce.entities;
+using Atividade_Interfarce.Service;
 
 namespace Atividade 
 {
@@ -14,9 +15,18 @@ namespace Atividade
             DateTime inicio = DateTime.ParseExact(Console.ReadLine(), "MM/dd/yyyy HH:mm", CultureInfo.InvariantCulture);
             Console.Write("Final do Aluguel (MM/dd/yyyy HH:mm) ");
             DateTime final = DateTime.ParseExact(Console.ReadLine(), "MM/dd/yyyy HH:mm", CultureInfo.InvariantCulture);
+            Console.Write("Preço por hora: ");
+            double hora = double.Parse(Console.ReadLine());
+            Console.Write("Preço por dia: ");
+            double dia = double.Parse(Console.ReadLine());
+            ServicoAluguel servicoAluguel = new ServicoAluguel(dia, hora);
             Aluguel_de_Carros aluguel = new Aluguel_de_Carros(inicio, final, new Veiculo(modelo));
+
+            servicoAluguel.Pagamento(aluguel);
+
             System.Console.WriteLine("Nota de Pagamento: ");
             Console.Write(aluguel.Nota);
+
 
         }
     }

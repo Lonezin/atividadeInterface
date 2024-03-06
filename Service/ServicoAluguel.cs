@@ -6,12 +6,13 @@ namespace Atividade_Interfarce.Service
     {
         public double PrecoPorDia { get; private set; }
         public double PrecoPorHora { get; private set; }
-        private BrasilTaxa brasilTaxa = new BrasilTaxa();
+        private IServicoTaxa ServicoTaxa;
 
-        public ServicoAluguel (double precoPorDia, double precoPorHora)
+        public ServicoAluguel (double precoPorDia, double precoPorHora, IServicoTaxa servicoTaxa)
         {
             PrecoPorDia = precoPorDia;
             PrecoPorHora = precoPorHora;
+            ServicoTaxa = servicoTaxa;
         }
         public void Pagamento(Aluguel_de_Carros aluguel_De_Carros) 
         {
@@ -25,7 +26,7 @@ namespace Atividade_Interfarce.Service
             {
                 pagamentoBasico = PrecoPorDia * Math.Ceiling(duracao.TotalDays);
             }
-            double tax = brasilTaxa.Taxa(pagamentoBasico);
+            double tax = ServicoTaxa.Taxa(pagamentoBasico);
             aluguel_De_Carros.Nota = new Pagamento(pagamentoBasico, tax);
         }
     }

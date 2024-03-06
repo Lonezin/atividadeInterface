@@ -1,6 +1,6 @@
 namespace Atividade_Interfarce.Service
 {
-    public class BrasilTaxa
+    public class BrasilTaxa : IServicoTaxa
     {
         public double Taxa(double quantia)
         {

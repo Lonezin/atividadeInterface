@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atividade Interfarce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+947b6ff2795f430a4addc111bc59a9c9021fff8c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atividade Interfarce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atividade Interfarce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
